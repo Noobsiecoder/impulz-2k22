@@ -1,0 +1,10 @@
+{
+  "name": "impulz-2k22",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Noobsiecoder/impulz-2k22.git",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
