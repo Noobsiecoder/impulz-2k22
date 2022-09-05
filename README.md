@@ -5,5 +5,4 @@
 - To clone repository:
   ` git clone https://github.com/Noobsiecoder/impulz-2k22.git`
 
-- To install TailwindCSS:
-  `https://tailwindcss.com/docs/installation`
+- All source code can be inside `src/`
