@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" class="relative h-screen">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,400;0,500;0,600;0,700&display=swap"
+        rel="stylesheet">
+    <link href="/src/css/style.css" type="text/css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        .heading-1 {
+            margin: 0;
+            padding: 0;
+            font-family: ‘Arial Narrow’, sans-serif;
+            font-weight: 100;
+            font-size: 1.1em;
+            color: #a3e1f0;
+        }
+
+        .span-tag {
+            position: relative;
+            top: 0.63em;
+            display: inline-block;
+            text-transform: uppercase;
+            opacity: 0;
+            transform: rotateX(-90deg);
+        }
+
+        .let1 {
+            animation: drop 1.2s ease-in-out infinite;
+            animation-delay: 1.2s;
+        }
+
+        .let2 {
+            animation: drop 1.2s ease-in-out infinite;
+            animation-delay: 1.3s;
+        }
+
+        .let3 {
+            animation: drop 1.2s ease-in-out infinite;
+            animation-delay: 1.4s;
+        }
+
+        .let4 {
+            animation: drop 1.2s ease-in-out infinite;
+            animation-delay: 1.5s;
+
+        }
+
+        .let5 {
+            animation: drop 1.2s ease-in-out infinite;
+            animation-delay: 1.6s;
+        }
+
+        .let6 {
+            animation: drop 1.2s ease-in-out infinite;
+            animation-delay: 1.7s;
+        }
+
+        .let7 {
+            animation: drop 1.2s ease-in-out infinite;
+            animation-delay: 1.8s;
+        }
+
+        @keyframes drop {
+            10% {
+                opacity: 0.5;
+            }
+
+            20% {
+                opacity: 1;
+                top: 3.78em;
+                transform: rotateX(-360deg);
+            }
+
+            80% {
+                opacity: 1;
+                top: 3.78em;
+                transform: rotateX(-360deg);
+            }
+
+            90% {
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 0;
+                top: 6.94em
+            }
+        }
+    </style>
+    <title>Impulz 2K22</title>
+</head>
+
+<body class="relative font-poppins">
+    <div id="loader" class="h-screen" style="background-color: #191a1a;">
+        <h1 class="text-center heading-1">
+            <span class="let1 span-tag">l</span>
+            <span class="let2 span-tag">o</span>
+            <span class="let3 span-tag">a</span>
+            <span class="let4 span-tag">d</span>
+            <span class="let5 span-tag">i</span>
+            <span class="let6 span-tag">n</span>
+            <span class="let7 span-tag">g</span>
+        </h1>
+    </div>
+    <div id="main-content" class="hidden">
+        <img src="../assets/Building 20.jpg" class="fixed hidden w-full h-screen md:block" />
+        <img src="../assets/bg_gif.gif" class="fixed w-full h-screen md:hidden" />
+        <div class="absolute w-full bg-white bg-opacity-70">
+            <div
+                class="px-8 py-16 space-y-8 text-center sm:px-10 md:px-24 md:py-20 lg:px-64 xl:px-96 md:space-y-16 lg:space-y-14">
+                <div
+                    class="space-y-1.5 sm:space-x-4 lg:space-x-6 xl:space-x-12 sm:flex sm:items-center sm:justify-center">
+                    <img src="../assets/c_logo.png" alt="college logo"
+                        class="hidden sm:w-24 lg:w-36 lg:h-28 sm:h-16 sm:block bg-blend-lighten" />
+                    <div>
+                        <h1 class="text-3xl font-bold lg:text-5xl">St. Joseph's Institute&nbsp;of&nbsp;Technology</h1>
+                        <p class="text-sm lg:text-base">An Autonomous Institution</p>
+                    </div>
+                    <img src="../assets/s_logo.png" alt="symposium logo"
+                        class="hidden sm:w-24 lg:w-36 lg:h-28 sm:h-16 sm:block" />
+                </div>
+                <div class="space-y-10">
+                    <div class="space-y-2">
+                        <h1 class="text-5xl font-bold md:text-6xl xl:text-7xl">IMPULZ 2K22</h1>
+                        <h3 class="text-sm md:text-base xl:text-lg">Organized by the Department of
+                            Mechanical&nbsp;Engineering</h3>
+                    </div>
+                    <div class="flex items-center justify-between gap-x-4 md:px-8 lg:px-12 2xl:px-20">
+                        <div
+                            class="flex flex-col justify-center w-20 h-20 bg-gray-100 rounded shadow-sm bg-opacity-40 gap-y-1">
+                            <span id="dd" class="text-4xl font-medium"></span>
+                            <span class="text-sm">Days</span>
+                        </div>
+                        <div
+                            class="flex flex-col justify-center w-20 h-20 bg-gray-100 rounded shadow-sm bg-opacity-40 gap-y-1">
+                            <span id="hh" class="text-4xl font-medium"></span>
+                            <span class="text-sm">Hours</span>
+                        </div>
+                        <div
+                            class="flex flex-col justify-center w-20 h-20 bg-gray-100 rounded shadow-sm bg-opacity-40 gap-y-1">
+                            <span id="mm" class="text-4xl font-medium"></span>
+                            <span class="text-sm">Minutes</span>
+                        </div>
+                        <div
+                            class="flex flex-col justify-center w-20 h-20 bg-gray-100 rounded shadow-sm bg-opacity-40 gap-y-1">
+                            <span id="ss" class="text-4xl font-medium"></span>
+                            <span class="text-sm">Seconds</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-xl font-medium">A National Level Technical Symposium</p>
+                        <p>08th October 2022, Chennai</p>
+                    </div>
+                    <div class="w-full md:px-8 lg:px-12 2xl:px-20">
+                        <a href="https://conoscenza2022.stjosephstechnology.ac.in/registration/"
+                            class="inline-block w-full px-6 py-4 bg-gray-100 rounded shadow-lg">
+                            <span class="text-lg font-semibold">Register Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="px-8 pb-12 space-y-8 lg:space-y-10 sm:px-16 md:px-24 lg:px-32 xl:px-36">
+                <h2 class="text-2xl italic font-medium text-justify lg:text-4xl">"Casting the world, Forging the campus,
+                    Shaping the universe & Welding the rest of all the other branches."</h2>
+            </div>
+            <div class="px-8 py-16 space-y-12 sm:px-16 md:px-24 lg:px-32 xl:px-36">
+                <h2 class="text-3xl font-medium text-left lg:text-5xl">Events</h2>
+                <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-y-10 md:gap-x-12">
+                    <div class="max-w-md overflow-hidden bg-white rounded-md shadow-lg">
+                        <img class="object-cover w-full duration-300 transform hover:scale-110"
+                            src="../assets/rocket.avif" alt="space x rocket launch">
+                        <div class="px-2 py-4 space-y-1">
+                            <div class="text-2xl font-semibold">Propel Z</div>
+                            <div class="text-sm italic">A water rocketry contest</div>
+                            <div class="pt-4 text-lg font-medium">Instructions</div>
+                            <div class="pt-2">
+                                <ol class="pl-6 space-y-3 list-disc">
+                                    <li>Maximum 02 members in a team</li>
+                                    <li>Single-stage rockets are only allowed (Max: 55 cm, 2.5L)</li>
+                                    <li>Pressure in the range of 45psi-50psi</li>
+                                    <li>Water should be only used as propellent</li>
+                                    <li>No sheet metal or glass particles should be used in making rockets</li>
+                                    <li>Air compressor and nozzle will be provided</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm overflow-hidden bg-white rounded-md shadow-lg">
+                        <img class="object-cover w-full duration-300 transform hover:scale-110" src="../assets/cad.avif"
+                            alt="catia designing">
+                        <div class="px-6 py-4 space-y-1">
+                            <div class="text-2xl font-semibold">Draftrix</div>
+                            <div class="text-sm italic">A CAD modeling contest</div>
+                            <div class="pt-4 text-lg font-medium">Instructions</div>
+                            <div class="pt-2">
+                                <ol class="pl-6 space-y-3 list-disc">
+                                    <li>Individual event</li>
+                                    <li>Prelims will be conducted before CAD Designing</li>
+                                    <li>System will be provided during contest (SolidWorks v13)</li>
+                                    <li>Machine component drawings will be provided in 2D for modeling</li>
+                                    <li><b>Judging Criteria:</b> Modeling time and accuracy</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm overflow-hidden bg-white rounded-md shadow-lg">
+                        <img class="object-cover w-full duration-300 transform hover:scale-110"
+                            src="../assets/r_cube.avif" alt="rubik's cubes">
+                        <div class="px-6 py-4 space-y-1">
+                            <div class="text-2xl font-semibold">Ignited Minds</div>
+                            <div class="text-sm italic">A Quiz contest</div>
+                            <div class="pt-4 text-lg font-medium">Instructions</div>
+                            <div class="pt-2">
+                                <ol class="pl-6 space-y-3 list-disc">
+                                    <li>Maximum 02 members in a team</li>
+                                    <li>Prelims will be conducted before main event</li>
+                                    <li>Questions will be in the form of multiple choice</li>
+                                    <li>The participants will not be allowed to use any electronic gadgets</li>
+                                    <li>The decision of the quiz master will be final</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm overflow-hidden bg-white rounded-md shadow-lg">
+                        <img class="object-cover w-full duration-300 transform hover:scale-110"
+                            src="../assets/gears.avif" alt="gears">
+                        <div class="px-6 py-4 space-y-1">
+                            <div class="text-2xl font-semibold">Mission Fusion</div>
+                            <div class="text-sm italic">An assembly contest</div>
+                            <div class="pt-4 text-lg font-medium">Instructions</div>
+                            <div class="pt-2">
+                                <ol class="pl-6 space-y-3 list-disc">
+                                    <li>Individual event</li>
+                                    <li>Prelims will be conducted before main event</li>
+                                    <li>Components and tools will be provided</li>
+                                    <li><b>Judging Criteria:</b> Completion of assembly in minimum time</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="max-w-sm overflow-hidden bg-white rounded-md shadow-lg">
+                        <img class="object-cover w-full duration-300 transform hover:scale-110"
+                            src="../assets/lathe.avif" alt="gears">
+                        <div class="px-6 py-4 space-y-1">
+                            <div class="text-2xl font-semibold">JIT Machining</div>
+                            <div class="text-sm italic">A tool machining contest</div>
+                            <div class="pt-4 text-lg font-medium">Instructions</div>
+                            <div class="pt-2">
+                                <ol class="pl-6 space-y-3 list-disc">
+                                    <li>Individual event</li>
+                                    <li>Prelims will be conducted before main event</li>
+                                    <li>Raw material and Lathe will be provided</li>
+                                    <li><b>Judging Criteria:</b> Accuracy, Surface finish, and time</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="px-8 pb-12 space-y-8 lg:space-y-10 sm:px-16 md:px-24 lg:px-32 xl:px-36">
+                <h2 class="text-3xl font-medium text-left lg:text-5xl">General Instructions</h2>
+                <div class="px-12 py-4 bg-white rounded">
+                    <ul class="space-y-4 text-justify list-disc lg:text-lg">
+                        <li>
+                            All participants should bring their registration slip along with their College ID card
+                        </li>
+                        <li>
+                            Participants will be permitted to enter the campus only in the Formal Dress code
+                        </li>
+                        <li>
+                            College buses will be available from all parts of the city.
+                        </li>
+                        <li>
+                            Registration will be closed by 8.30 AM.
+                        </li>
+                        <li>
+                            Events will start at 9.00 AM
+                        </li>
+                        <li>
+                            Breakfast and Lunch will be provided by the college
+                        </li>
+                        <li>
+                            Cell phones are strictly prohibited.
+                        </li>
+                        <li>
+                            The Symposium is open to all the departments of Engineering and Technology.
+                        </li>
+                        <li>
+                            Proper decorum must be maintained in accordance with the college rules while on the College
+                            campus.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="px-8 pb-12 space-y-8 lg:space-y-10 sm:px-16 md:px-24 lg:px-32 xl:px-36">
+                <h2 class="text-3xl font-medium text-left lg:text-5xl">Student Co-ordinators</h2>
+                <div class="px-12 py-4 bg-white rounded sm:px-16 sm:py-8 md:px-24 lg:px-32 xl:px-36">
+                    <ol class="space-y-6 text-justify md:space-y-12 lg:text-lg">
+                        <li class="flex justify-between">
+                            <span class="text-lg text-medium">Mr. Abhishek .S</span>
+                            <a href="tel:+919952968215"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="flex justify-between">
+                            <span class="text-lg text-medium">Mr. Gladlin Shabu .J .A</span>
+                            <a href="tel:+919361769764"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="flex justify-between">
+                            <span class="text-lg text-medium">Mr. Rangarajan .V</span>
+                            <a href="tel:+917904552190"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="flex justify-between">
+                            <span class="text-lg text-medium">Mr. Mohammed Riyaz</span>
+                            <a href="tel:+919360846821"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <footer class="p-4 text-center bg-white rounded-lg shadow md:p-6">
+                <p class="text-sm text-gray-700">© 2022 <a href="https://stjosephstechnology.ac.in/" class="hover:underline">St.
+                        Joseph's Institute Of Technology,
+                        Chennai.</a> All Rights Reserved.
+                </p>
+            </footer>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/loader.js"></script>
+</body>
+
+</html>

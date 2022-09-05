@@ -4,6 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/Noobsiecoder/impulz-2k22.git",
   "license": "MIT",
+  "scripts": {
+    "css:dev": "npx tailwindcss -i src/css/tailwind.css -o src/css/style.css"
+  },
   "dependencies": {
     "tailwindcss": "^3.1.8"
   }

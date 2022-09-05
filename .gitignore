@@ -1,5 +1,5 @@
 # tailwind
-input.css
+src/css/tailwind.css
 tailwind.config.js
 
 # misc
